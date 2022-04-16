@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ddd.UserMapper">
+
+    <select id="selectUserByUserName1" resultType="com.uuu.User">
+        select id, user_name, age
+        from mybatis_aaa_user
+        where user_name = #{sss}
+    </select>
+
+    <select id="selectUserByUserName2" resultType="com.uuu.User">
+        select id, user_name, age
+        from mybatis_aaa_user
+        where user_name = '${ddd}'
+    </select>
+
+    <select id="selectUserByTableName" resultType="com.uuu.User">
+        select id, user_name, age
+        from ${tableName}
+        where user_name = #{userName}
+    </select>
+
+    <select id="selectUserByCommon" resultType="com.uuu.User">
+        select id, user_name, age
+        from mybatis_aaa_user
+        where user_name = #{userName}
+          and age = #{age}
+    </select>
+
+    <select id="selectUserByMap" resultType="com.uuu.User">
+        select id, user_name, age
+        from mybatis_aaa_user
+        where user_name = #{userName}
+    </select>
+
+    <!--id是自增的-->
+    <insert id="insertUser">
+        insert into mybatis_aaa_user(user_name, age)
+        values (#{userName}, #{age})
+    </insert>
+
+    <!--
+    insert into mybatis_aaa_user ( user_name, age )values ( ?, ? ) , ( ?, ? )
+    -->
+    <insert id="insertUsers">
+        insert into mybatis_aaa_user
+        (
+        user_name,
+        age
+        )values
+        <foreach collection="users" item="user" separator=",">
+            (
+            #{user.userName},
+            #{user.age}
+            )
+        </foreach>
+    </insert>
+</mapper>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ddd.ShopMapper">
+
+    <!---->
+    <resultMap id="resultMap6" type="com.uuu.Shop">
+        <id property="id" column="id"></id>
+        <result property="shopName" column="shop_name"></result>
+    </resultMap>
+    <select id="getShop" resultMap="resultMap6">
+        select id, shop_name
+        from mybatis_return_shop
+        where id = #{id}
+    </select>
+
+    <!--ofType
+   collection
+   clerks：外层实体类里的list属性名
+   -->
+    <resultMap id="resultMap7" type="com.uuu.Shop">
+        <id property="id" column="id"/>
+        <result property="shopName" column="shop_name"/>
+        <collection property="clerks" ofType="com.uuu.Clerk">
+            <id property="id" column="id"></id>
+            <result property="clerkName" column="clerk_name"></result>
+        </collection>
+    </resultMap>
+    <select id="getClerksJoin" resultMap="resultMap7">
+        select c.id,
+               c.clerk_name,
+               c.shop_id,
+               s.shop_name
+        from mybatis_return_shop s
+                 left join mybatis_return_clerk c
+                           on s.id = c.shop_id
+        where s.id = 1
+    </select>
+
+    <!--
+    严重注意：没有javaType，collection标签之间也没有值，这点跟多对一不同！
+    -->
+    <resultMap id="resultMap8" type="com.uuu.Shop">
+        <id property="id" column="id"></id>
+        <result property="shopName" column="shop_name"></result>
+        <collection property="clerks"
+                    select="com.ddd.ClerkMapper.getClerk"
+                    column="id">
+        </collection>
+    </resultMap>
+    <select id="getClerksLazy" resultMap="resultMap8">
+        select id, shop_name
+        from mybatis_return_shop
+        where id = 1
+    </select>
+
+    <!--fetchType="eager"-->
+    <resultMap id="resultMap9" type="com.uuu.Shop">
+        <id property="id" column="id"></id>
+        <result property="shopName" column="shop_name"></result>
+        <collection property="clerks"
+                    select="com.ddd.ClerkMapper.getClerk"
+                    column="id"
+                    fetchType="eager">
+        </collection>
+    </resultMap>
+    <select id="getClerksEager" resultMap="resultMap9">
+        select id, shop_name
+        from mybatis_return_shop
+        where id = 1
+    </select>
+
+</mapper>

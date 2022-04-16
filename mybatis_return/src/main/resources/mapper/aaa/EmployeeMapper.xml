@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ddd.EmployeeMapper">
+
+    <!--resultType-略，见工程mybatis_query-->
+
+    <!---->
+    <resultMap id="resultMap1" type="com.uuu.Employee">
+        <id property="id" column="id"></id>
+        <result property="employeeName" column="employee_name"></result>
+    </resultMap>
+    <select id="getEmployee" resultMap="resultMap1">
+        select id, employee_name
+        from mybatis_return_employee
+        where id = 1
+    </select>
+
+    <!---->
+    <resultMap id="resultMap2" type="com.uuu.Employee">
+        <id property="id" column="id"></id>
+        <result property="employeeName" column="employee_name"></result>
+        <association
+                property="dept"
+                javaType="com.uuu.Dept">
+        </association>
+    </resultMap>
+    <select id="getEmployAndDeptJoin" resultMap="resultMap2">
+        select e.id,
+               e.employee_name,
+               e.dept_id,
+               d.dept_name
+        from mybatis_return_employee e
+                 left join mybatis_return_dept d
+                           on e.id = d.id
+        where e.id = 1
+    </select>
+
+    <!--
+    select：方法的全类名.方法名
+    column：外层sql的属性，会传递给分步查询sql作为查询条件
+    javaType
+    -->
+    <resultMap id="resultMap3" type="com.uuu.Employee">
+        <id property="id" column="id"></id>
+        <result property="employeeName" column="employee_name"></result>
+        <association property="dept"
+                     select="com.ddd.DeptMapper.getDept"
+                     column="id">
+        </association>
+    </resultMap>
+    <select id="getEmployAndDeptLazy" resultMap="resultMap3">
+        select id, employee_name, dept_id
+        from mybatis_return_employee
+        where id = 2
+    </select>
+
+    <!--fetchType="eager"：在已设置全局懒加载后，再设置个别sql立即加载-->
+    <resultMap id="resultMap4" type="com.uuu.Employee">
+        <id property="id" column="id"></id>
+        <result property="employeeName" column="employee_name"></result>
+        <association property="dept"
+                     select="com.ddd.DeptMapper.getDept"
+                     column="id"
+                     fetchType="eager">
+        </association>
+    </resultMap>
+    <select id="getEmployAndDeptEager" resultMap="resultMap4">
+        select id, employee_name, dept_id
+        from mybatis_return_employee
+        where id = 1
+    </select>
+
+
+</mapper>

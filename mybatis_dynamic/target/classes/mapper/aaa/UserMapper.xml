@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ddd.UserMapper">
+
+    <!---->
+    <select id="getUserList" resultType="com.uuu.User">
+        select id, user_name, age
+        from mybatis_aaa_user
+        where 1 = 1
+        <if test="userName != null and userName != ''">
+            and user_name = #{userName}
+        </if>
+        <if test="age != null and age != ''">
+            and age = #{age}
+        </if>
+    </select>
+
+<!---->
+    <delete id="insertUser">
+        insert into
+         mybatis_aaa_user("user_name")
+
+        <foreach collection="ids" item="id" separator="or">
+            id = #{id}
+        </foreach>
+    </delete>
+
+    <!---->
+    <delete id="getUsersByIds">
+        delete
+        from mybatis_aaa_user
+        where
+        <foreach collection="ids" item="id" separator="or">
+            id = #{id}
+        </foreach>
+    </delete>
+
+    <update id="getUsersByIds">
+        update mybatis_aaa_user
+        set user_name = 'ppp'
+        where
+        <foreach collection="ids" item="id" separator="or">
+            id = #{id}
+        </foreach>
+    </update>
+
+    <!---->
+    <select id="getUsersByIds" resultType="com.uuu.User">
+        select id, user_name, age
+        from mybatis_aaa_user
+        where id in
+        <foreach collection="ids" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </select>
+
+</mapper>

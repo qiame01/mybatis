@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="375197f3-179f-4a92-83e0-b68093af78fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamic/src/main/java/com/MybatisDynamicApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamic/src/main/java/com/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamic/src/main/java/com/ddd/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamic/src/main/java/com/uuu/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamic/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamic/src/main/resources/mapper/aaa/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamic/src/test/java/com/MybatisDynamicApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamic/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamic/target/classes/com/MybatisDynamicApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamic/target/classes/com/MybatisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamic/target/classes/com/ddd/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamic/target/classes/com/uuu/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamic/target/classes/mapper/aaa/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamic/target/test-classes/com/MybatisDynamicApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator/src/main/java/com/GeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator/src/main/java/com/Springboot10Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator/src/main/java/com/mapper/SbTestUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator/src/main/java/com/mapper/SbTestUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator/src/main/java/com/pojo/SbTestUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator/src/main/java/com/pojo/SbTestUserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator/src/main/java/com/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator/src/main/java/com/serviceImpl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator/src/main/resources/templates/mmm/aaa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator/src/main/resources/templates/mmm/bbb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator/src/main/resources/templates/ok.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_generator/src/test/java/springboot10/Springboot10ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_param/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_param/src/main/java/com/MybatisParamApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_param/src/main/java/com/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_param/src/main/java/com/ddd/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_param/src/main/java/com/uuu/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_param/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_param/src/main/resources/mapper/aaa/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_param/src/test/java/com/MybatisParamApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_query/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_query/src/main/java/com/MybatisQueryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_query/src/main/java/com/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_query/src/main/java/com/ddd/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_query/src/main/java/com/ddd/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_query/src/main/java/com/uuu/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_query/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_query/src/main/resources/mapper/aaa/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_query/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_query/src/test/java/com/MybatisQueryApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_return/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_return/src/main/java/com/MybatisReturnApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_return/src/main/java/com/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_return/src/main/java/com/ddd/ClerkMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_return/src/main/java/com/ddd/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_return/src/main/java/com/ddd/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_return/src/main/java/com/ddd/ShopMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_return/src/main/java/com/uuu/Clerk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_return/src/main/java/com/uuu/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_return/src/main/java/com/uuu/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_return/src/main/java/com/uuu/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_return/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_return/src/main/resources/mapper/aaa/ClerkMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_return/src/main/resources/mapper/aaa/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_return/src/main/resources/mapper/aaa/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_return/src/main/resources/mapper/aaa/ShopMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_return/src/test/java/com/MybatisReturnApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start1/src/main/java/com/MybatisStart1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start1/src/main/java/com/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start1/src/main/java/com/ddd/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start1/src/main/java/com/ddd/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start1/src/main/java/com/uuu/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start1/src/test/java/com/MybatisStartApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start2/src/main/java/com/MybatisStart2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start2/src/main/java/com/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start2/src/main/java/com/ddd/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start2/src/main/java/com/uuu/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start2/src/main/resources/mapper/aaa/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start2/src/test/java/com/MybatisStart2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start3/src/main/java/com/MybatisStart3Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start3/src/main/java/com/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start3/src/main/java/com/ddd/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start3/src/main/java/com/uuu/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start3/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start3/src/main/resources/mapper/aaa/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start3/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_start3/src/test/java/com/MybatisStart3ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_transaction/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_transaction/src/main/java/com/MybatisTransactionApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_transaction/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_transaction/src/test/java/com/MybatisTransactionApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="FxmlFile" />
+        <option value="MybatisTest" />
+        <option value="UserMapper" />
+        <option value="User" />
+        <option value="UserCustom" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="270GmC3M6Yf4Ehcz0x39oBQzUeE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/mybatis_start/src/main/java/mybatis_start" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2031455" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\mybatis" />
+      <recent name="D:\workspace\mybatis\mybatis_query\src\main\resources" />
+      <recent name="D:\workspace\mybatis\mybatis_return\src\main\resources\mapper\aaa" />
+      <recent name="D:\workspace\mybatis\mybatis_query\src\main\java\com" />
+      <recent name="D:\workspace\mybatis\mybatis_return\src\main\java\com" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\mybatis\mybatis_generator\src\main\java\com" />
+      <recent name="D:\workspace\mybatis\mybatis_start3\src\main\java\mybatis_start\ddd" />
+      <recent name="D:\workspace\mybatis\mybatis_start3\src\main\resources" />
+      <recent name="D:\workspace\mybatis\mybatis_start\src\main\java\mybatis_start\ddd" />
+      <recent name="D:\workspace\mybatis\mybatis_start\src\main\java\mybatis_start\start" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+      <recent name="mybatis_start3" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ddd" />
+      <recent name="com.uuu" />
+      <recent name="mybatis_start.start" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisParamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_param" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.MybatisParamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MybatisParamApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="375197f3-179f-4a92-83e0-b68093af78fe" name="Default Changelist" comment="" />
+      <created>1648449748054</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648449748054</updated>
+      <workItem from="1648449750406" duration="3081000" />
+      <workItem from="1648626112361" duration="1185000" />
+      <workItem from="1648799781643" duration="2640000" />
+      <workItem from="1648818845590" duration="12672000" />
+      <workItem from="1648831628575" duration="577000" />
+      <workItem from="1648857085451" duration="3565000" />
+      <workItem from="1648869843188" duration="1957000" />
+      <workItem from="1648872050864" duration="413000" />
+      <workItem from="1648872478163" duration="180000" />
+      <workItem from="1648872753489" duration="6268000" />
+      <workItem from="1648969488323" duration="2766000" />
+      <workItem from="1649048745837" duration="1714000" />
+      <workItem from="1649118217280" duration="52906000" />
+      <workItem from="1649212588862" duration="18646000" />
+      <workItem from="1649250560818" duration="8951000" />
+      <workItem from="1649259583074" duration="413000" />
+      <workItem from="1649260061738" duration="554000" />
+      <workItem from="1649260636457" duration="281000" />
+      <workItem from="1649288405064" duration="8002000" />
+      <workItem from="1649296491684" duration="4453000" />
+      <workItem from="1649477867588" duration="486000" />
+      <workItem from="1649642389984" duration="205000" />
+      <workItem from="1649642619526" duration="750000" />
+      <workItem from="1649643869044" duration="6748000" />
+      <workItem from="1650096335051" duration="821000" />
+      <workItem from="1650099883072" duration="625000" />
+      <workItem from="1650100701776" duration="1990000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

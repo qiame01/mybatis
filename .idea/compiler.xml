@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mybatis_param" />
+        <module name="mybatis_start3" />
+        <module name="mybatis_query" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatis_config" target="1.8" />
+      <module name="mybatis_dynamic" target="1.8" />
+      <module name="mybatis_mapping" target="1.8" />
+      <module name="mybatis_page" target="1.8" />
+      <module name="mybatis_param" target="1.8" />
+      <module name="mybatis_query" target="1.8" />
+      <module name="mybatis_return" target="1.8" />
+      <module name="mybatis_start1" target="1.8" />
+      <module name="mybatis_start2" target="1.8" />
+      <module name="mybatis_start3" target="1.8" />
+      <module name="mybatis_transaction" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mybatis_config" options="-parameters" />
+      <module name="mybatis_dynamic" options="-parameters" />
+      <module name="mybatis_mapping" options="-parameters" />
+      <module name="mybatis_page" options="-parameters" />
+      <module name="mybatis_param" options="-parameters" />
+      <module name="mybatis_query" options="-parameters" />
+      <module name="mybatis_return" options="-parameters" />
+      <module name="mybatis_start1" options="-parameters" />
+      <module name="mybatis_start2" options="-parameters" />
+      <module name="mybatis_start3" options="-parameters" />
+      <module name="mybatis_transaction" options="-parameters" />
+    </option>
+  </component>
+</project>

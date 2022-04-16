@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>submit-html</title>
+</head>
+<body>
+
+    <form th:action="@{/user/add}" method="post">
+        name：<input type="text" name="name"> <br>
+        age：<input type="text" name="age"> <br>
+        sex：<input type="text" name="sex"> <br>
+        <input type="submit" value="提交"> <br>
+    </form>
+
+</body>
+</html>

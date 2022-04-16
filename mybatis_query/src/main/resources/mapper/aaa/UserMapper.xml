@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ddd.UserMapper">
+
+    <!--查询.list-->
+    <select id="getUserList" resultType="com.uuu.User">
+        select id, user_name, age
+        from mybatis_aaa_user
+    </select>
+
+    <!--查询.count-->
+    <select id="getCount" resultType="java.lang.Integer">
+        select count(*)
+        from mybatis_aaa_user;
+    </select>
+
+    <!--查询.map java.util.Map-->
+    <select id="getUserMapById" resultType="Map">
+        select id, user_name, age
+        from mybatis_aaa_user
+        where id = #{id}
+    </select>
+
+    <!--查询.List<map>-->
+    <select id="getUserMapList" resultType="Map">
+        select id, user_name, age
+        from mybatis_aaa_user
+    </select>
+
+    <!--查询.List<map>，返回值里每个map都带key-->
+    <select id="getUserMapListWithKey" resultType="Map">
+        select id, user_name, age
+        from mybatis_aaa_user
+    </select>
+
+    <!--查询.模糊，推荐第三种方式-->
+    <select id="getUserByLike" resultType="com.uuu.User">
+        --         select id, user_name, age from mybatis_aaa_user where user_name like '%${userName}%'
+--         select id, user_name, age from mybatis_aaa_user where user_name like concat('%',#{userName},'%')
+        select id, user_name, age
+        from mybatis_aaa_user
+        where user_name like "%"#{userName}"%"
+    </select>
+
+    <!--查询.分页-->
+    <select id="getUsersByPage" resultType="com.uuu.User">
+        select id, user_name, age
+        from mybatis_aaa_user
+    </select>
+
+    <!--查询.resultMap.多表联查，见工程.mybatis_return-->
+    <!--查询.动态sql，见工程.mybatis_dynamic-->
+
+</mapper>
